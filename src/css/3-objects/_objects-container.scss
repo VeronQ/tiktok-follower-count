@@ -1,0 +1,13 @@
+/*
+ * [ objects / container ]
+ */
+
+// -----------------------------------------------------------------------------
+
+// Container
+.o-container {
+  @apply px-4 mx-auto;
+  width: 100%;
+  max-width: theme('spacing.container');
+  position: relative;
+}

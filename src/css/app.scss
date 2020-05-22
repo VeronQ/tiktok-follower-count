@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@import '0-config/config-path'
+;
+
+@tailwind base;
+
+@import '1-base/base-fonts',
+'1-base/base-default'
+;
+
+@tailwind components;
+
+@import '3-objects/objects-container'
+;
+
+@tailwind utilities;

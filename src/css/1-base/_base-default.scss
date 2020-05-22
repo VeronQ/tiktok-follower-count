@@ -1,0 +1,20 @@
+/*
+ * [ 1-base / default ]
+ */
+
+// -----------------------------------------------------------------------------
+
+html, body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+body {
+  line-height: 1.5;
+  background-color: #FFF;
+  overflow-x: hidden;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
